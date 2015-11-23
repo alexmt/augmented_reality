@@ -1,0 +1,14 @@
+repositories {
+  maven {
+    url 'http://xuggle.googlecode.com/svn/trunk/repo/share/java'
+  }
+}
+
+apply plugin: 'kotlin'
+
+dependencies {
+  compile "xuggle:xuggle-xuggler:$xuggler"
+  compile "org.eclipse.jetty:jetty-server:$jetty"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
+  compile "com.github.rvesse:airline:$airline"
+}

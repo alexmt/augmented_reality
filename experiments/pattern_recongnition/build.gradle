@@ -1,0 +1,11 @@
+apply plugin: 'kotlin'
+
+dependencies {
+  compile project(':common')
+  compile project(':experiments:live_streamer')
+
+  compile "org.bytedeco:javacv:$javacv"
+  compile "com.google.guava:guava:$guava"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
+  compile "org.bytedeco.javacpp-presets:opencv:$opencv:macosx-x86_64"
+}
