@@ -5,6 +5,8 @@ repositories {
 }
 
 apply plugin: 'kotlin'
+apply plugin: 'application'
+mainClassName = 'com.amt.experiments.patternrecognition.AppKt'
 
 dependencies {
   compile project(':common')
