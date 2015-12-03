@@ -1,3 +1,9 @@
+repositories {
+  maven {
+    url 'http://xuggle.googlecode.com/svn/trunk/repo/share/java'
+  }
+}
+
 apply plugin: 'kotlin'
 
 dependencies {
