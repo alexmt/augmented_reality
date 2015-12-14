@@ -1,5 +1,6 @@
 include 'experiments:pattern_recongnition'
 include 'experiments:live_streamer'
+include 'experiments:bottle_finder'
 include 'common'
 
 rootProject.name = 'augmented_reality'

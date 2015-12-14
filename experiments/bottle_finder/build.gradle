@@ -1,0 +1,10 @@
+apply plugin: 'kotlin'
+
+dependencies {
+  compile project(':common')
+
+  compile "org.bytedeco:javacv:$javacv"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
+  compile "org.bytedeco.javacpp-presets:opencv:$opencv:macosx-x86_64"
+}
+
