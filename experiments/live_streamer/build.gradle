@@ -1,6 +1,6 @@
 repositories {
-  maven {
-    url 'http://xuggle.googlecode.com/svn/trunk/repo/share/java'
+maven {
+    url 'https://files.liferay.com/mirrors/xuggle.googlecode.com/svn/trunk/repo/share/java/'
   }
 }
 

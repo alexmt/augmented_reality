@@ -1,6 +1,6 @@
 repositories {
   maven {
-    url 'http://xuggle.googlecode.com/svn/trunk/repo/share/java'
+    url 'https://files.liferay.com/mirrors/xuggle.googlecode.com/svn/trunk/repo/share/java/'
   }
 }
 
@@ -16,4 +16,5 @@ dependencies {
   compile "com.google.guava:guava:$guava"
   compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
   compile "org.bytedeco.javacpp-presets:opencv:$opencv:macosx-x86_64"
+  compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.10.0'
 }
